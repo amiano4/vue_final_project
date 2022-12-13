@@ -98,4 +98,4 @@
 </div>
 <?php endif; ?>
 
-<?php include "src/layouts/UserFooterLayout.php"; ?>
+<?php $con->close(); include "src/layouts/UserFooterLayout.php"; ?>
